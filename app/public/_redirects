@@ -1,2 +1,2 @@
-/api/*  https://api-blogify.herokuapp.com/:splat  200
+/api/*  https://api-blogify.herokuapp.com/api/:splat  200
 /* /index.html  200
