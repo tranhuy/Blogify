@@ -30,11 +30,17 @@ git clone git@github.com:tranhuy/Blogify.git
 ```sh
 npm install
 ```
+
+4. Start the app by running
+```sh
+npm start
+```
+
 ## Note about user creation and login
 
-Since the application currently does not have a UI for registering new users, you can use the following username/password for logging in: ``testuser/password``.
+Since the application currently does not have a UI for registering new users, you can use the following username/password for logging in: `testuser/password`.
 
-The api offers an endpoint for creating a new user.  To do so you can send a POST request to ``https://api-blogify.herokuapp.com/api/users`` with the following body:
+The api offers an endpoint for creating a new user.  To do so you can send a POST request to `https://api-blogify.herokuapp.com/api/users` with the following body:
 
 ```json
 {
